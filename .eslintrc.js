@@ -1,0 +1,18 @@
+module.exports = {
+  rules: {},
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+    mocha: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: "module",
+  },
+  extends: ["eslint:recommended", "plugin:prettier/recommended"],
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
+  },
+};

@@ -1,0 +1,37 @@
+{
+  "name": "vue-cli-plugin-playwright-mocha",
+  "version": "0.0.1",
+  "description": "e2e-playwright plugin with mocha for vue-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epr3/vue-cli-plugin-playwright-mocha.git"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "mocha",
+    "e2e-playwright"
+  ],
+  "author": "Eduard Predescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epr3/vue-cli-plugin-playwright-mocha/issues"
+  },
+  "homepage": "https://github.com/epr3/vue-cli-plugin-playwright-mocha#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-webpack-4": "^5.0.0-alpha.0",
+    "mocha": "^8.2.1",
+    "mochapack": "^2.0.6",
+    "playwright": "^1.7.1"
+  }
+}
