@@ -12,12 +12,12 @@ module.exports = (api, options, rootOptions, invoking) => {
   api.extendPackage({
     scripts: {
       "test:e2e": "vue-cli-service test:e2e",
-      devDependencies: {
-        "@vue/cli-plugin-webpack-4": require("../package.json").dependencies[
-          "@vue/cli-plugin-webpack-4"
-        ],
-        chai: "^4.2.0",
-      },
+    },
+    devDependencies: {
+      "@vue/cli-plugin-webpack-4": require("../package.json").dependencies[
+        "@vue/cli-plugin-webpack-4"
+      ],
+      chai: "^4.2.0",
     },
   });
 
