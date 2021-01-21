@@ -1,3 +1,3 @@
-<%_ if (!hasTS) { _%>
+<%_ if (!hasTS) { _ %>
 console.log("no-ts-mocha")
 <%_ } _%>
